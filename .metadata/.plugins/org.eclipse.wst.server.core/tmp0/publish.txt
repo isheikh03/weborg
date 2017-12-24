@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Aug 05 22:22:18 BDT 2017
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\USER\\.m2\\repository\\org\\springframework\\spring-web\\3.2.3.RELEASE\\spring-web-3.2.3.RELEASE.jar=D\:\\SOFTWARES\\Softwares for my Programing\\JAVA_Software\\sts-bundle\\pivotal-tc-server-developer-3.2.6.RELEASE\\base-instance\\wtpwebapps\\firstTryProject\\WEB-INF\\lib\\spring-web-3.2.3.RELEASE.jar
+org.eclipse.jst.jee.server\:firstTryProject=D\:\\SOFTWARES\\Softwares for my Programing\\JAVA_Software\\sts-bundle\\pivotal-tc-server-developer-3.2.6.RELEASE\\base-instance\\wtpwebapps\\firstTryProject
