@@ -1,0 +1,249 @@
+2017-12-25 03:47:54.618  INFO 3000 --- [main] com.weborg.websee.WeborgApplication      : Starting WeborgApplication on SHEIKH-IBRAHIM with PID 3000 (D:\HomePractice\STSprojects\weborg\bin started by USER in D:\HomePractice\STSprojects\weborg)
+2017-12-25 03:47:54.620  INFO 3000 --- [main] com.weborg.websee.WeborgApplication      : No active profile set, falling back to default profiles: default
+2017-12-25 03:47:54.649  INFO 3000 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 03:47:54 BDT 2017]; root of context hierarchy
+2017-12-25 03:47:55.426  INFO 3000 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-12-25 03:47:55.433  INFO 3000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-12-25 03:47:55.433  INFO 3000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-25 03:47:55.498  INFO 3000 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-25 03:47:55.498  INFO 3000 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 851 ms
+2017-12-25 03:47:55.598  INFO 3000 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-25 03:47:55.600  INFO 3000 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-25 03:47:55.601  INFO 3000 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-25 03:47:55.601  INFO 3000 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-25 03:47:55.601  INFO 3000 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-25 03:47:55.837  INFO 3000 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 03:47:54 BDT 2017]; root of context hierarchy
+2017-12-25 03:47:55.872  INFO 3000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{schoolName}],methods=[GET]}" onto public java.lang.String com.weborg.websee.controller.BoardController.showBoard(java.lang.String)
+2017-12-25 03:47:55.873  INFO 3000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.weborg.websee.controller.HomeController.showHome()
+2017-12-25 03:47:55.876  INFO 3000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-25 03:47:55.877  INFO 3000 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-25 03:47:55.898  INFO 3000 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 03:47:55.898  INFO 3000 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 03:47:55.928  INFO 3000 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 03:47:56.096  INFO 3000 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-25 03:47:56.131  INFO 3000 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-12-25 03:47:56.133  INFO 3000 --- [main] com.weborg.websee.WeborgApplication      : Started WeborgApplication in 1.694 seconds (JVM running for 2.166)
+2017-12-25 03:48:03.416  INFO 3000 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-25 03:48:03.418  INFO 3000 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-25 03:48:03.431  INFO 3000 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+2017-12-25 03:50:43.825  INFO 3000 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-12-25 03:50:43.826  INFO 3000 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 03:47:54 BDT 2017]; root of context hierarchy
+2017-12-25 03:50:43.828  INFO 3000 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-12-25 03:51:24.915  INFO 3192 --- [main] com.weborg.websee.WeborgApplication      : Starting WeborgApplication on SHEIKH-IBRAHIM with PID 3192 (D:\HomePractice\STSprojects\weborg\bin started by USER in D:\HomePractice\STSprojects\weborg)
+2017-12-25 03:51:24.918  INFO 3192 --- [main] com.weborg.websee.WeborgApplication      : No active profile set, falling back to default profiles: default
+2017-12-25 03:51:24.951  INFO 3192 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 03:51:24 BDT 2017]; root of context hierarchy
+2017-12-25 03:51:25.715  INFO 3192 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-12-25 03:51:25.723  INFO 3192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-12-25 03:51:25.723  INFO 3192 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-25 03:51:25.821  INFO 3192 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-25 03:51:25.821  INFO 3192 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 873 ms
+2017-12-25 03:51:25.956  INFO 3192 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-25 03:51:25.958  INFO 3192 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-25 03:51:25.959  INFO 3192 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-25 03:51:25.959  INFO 3192 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-25 03:51:25.959  INFO 3192 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-25 03:51:26.259  INFO 3192 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 03:51:24 BDT 2017]; root of context hierarchy
+2017-12-25 03:51:26.307  INFO 3192 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{schoolName}],methods=[GET]}" onto public java.lang.String com.weborg.websee.controller.BoardController.showBoard(java.lang.String)
+2017-12-25 03:51:26.308  INFO 3192 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.weborg.websee.controller.HomeController.showHome()
+2017-12-25 03:51:26.310  INFO 3192 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-25 03:51:26.311  INFO 3192 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-25 03:51:26.336  INFO 3192 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 03:51:26.337  INFO 3192 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 03:51:26.377  INFO 3192 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 03:51:26.558  INFO 3192 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-25 03:51:26.593  INFO 3192 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-12-25 03:51:26.596  INFO 3192 --- [main] com.weborg.websee.WeborgApplication      : Started WeborgApplication in 1.869 seconds (JVM running for 2.339)
+2017-12-25 03:51:32.835  INFO 3192 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-25 03:51:32.835  INFO 3192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-25 03:51:32.850  INFO 3192 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2017-12-25 03:56:28.772  INFO 3192 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-12-25 03:56:28.772  INFO 3192 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 03:51:24 BDT 2017]; root of context hierarchy
+2017-12-25 03:56:28.774  INFO 3192 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-12-25 03:56:44.976  INFO 3228 --- [main] com.weborg.websee.WeborgApplication      : Starting WeborgApplication on SHEIKH-IBRAHIM with PID 3228 (D:\HomePractice\STSprojects\weborg\bin started by USER in D:\HomePractice\STSprojects\weborg)
+2017-12-25 03:56:44.978  INFO 3228 --- [main] com.weborg.websee.WeborgApplication      : No active profile set, falling back to default profiles: default
+2017-12-25 03:56:45.012  INFO 3228 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 03:56:45 BDT 2017]; root of context hierarchy
+2017-12-25 03:56:45.832  INFO 3228 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-12-25 03:56:45.840  INFO 3228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-12-25 03:56:45.841  INFO 3228 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-25 03:56:45.941  INFO 3228 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-25 03:56:45.942  INFO 3228 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 933 ms
+2017-12-25 03:56:46.061  INFO 3228 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-25 03:56:46.064  INFO 3228 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-25 03:56:46.064  INFO 3228 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-25 03:56:46.064  INFO 3228 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-25 03:56:46.064  INFO 3228 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-25 03:56:46.279  INFO 3228 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 03:56:45 BDT 2017]; root of context hierarchy
+2017-12-25 03:56:46.313  INFO 3228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{schoolName}],methods=[GET]}" onto public java.lang.String com.weborg.websee.controller.BoardController.showBoard(java.lang.String)
+2017-12-25 03:56:46.313  INFO 3228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.weborg.websee.controller.HomeController.showHome()
+2017-12-25 03:56:46.316  INFO 3228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-25 03:56:46.317  INFO 3228 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-25 03:56:46.342  INFO 3228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 03:56:46.342  INFO 3228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 03:56:46.371  INFO 3228 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 03:56:46.534  INFO 3228 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-25 03:56:46.580  INFO 3228 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-12-25 03:56:46.583  INFO 3228 --- [main] com.weborg.websee.WeborgApplication      : Started WeborgApplication in 1.786 seconds (JVM running for 2.236)
+2017-12-25 03:57:07.533  INFO 3228 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-25 03:57:07.534  INFO 3228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-25 03:57:07.550  INFO 3228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2017-12-25 04:02:05.260  INFO 3228 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-12-25 04:02:05.260  INFO 3228 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 03:56:45 BDT 2017]; root of context hierarchy
+2017-12-25 04:02:05.262  INFO 3228 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-12-25 04:02:10.695  INFO 660 --- [main] com.weborg.websee.WeborgApplication      : Starting WeborgApplication on SHEIKH-IBRAHIM with PID 660 (D:\HomePractice\STSprojects\weborg\bin started by USER in D:\HomePractice\STSprojects\weborg)
+2017-12-25 04:02:10.697  INFO 660 --- [main] com.weborg.websee.WeborgApplication      : No active profile set, falling back to default profiles: default
+2017-12-25 04:02:10.722  INFO 660 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 04:02:10 BDT 2017]; root of context hierarchy
+2017-12-25 04:02:11.352  INFO 660 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-12-25 04:02:11.358  INFO 660 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-12-25 04:02:11.359  INFO 660 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-25 04:02:11.412  INFO 660 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-25 04:02:11.413  INFO 660 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 693 ms
+2017-12-25 04:02:11.491  INFO 660 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-25 04:02:11.493  INFO 660 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-25 04:02:11.494  INFO 660 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-25 04:02:11.494  INFO 660 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-25 04:02:11.494  INFO 660 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-25 04:02:11.671  INFO 660 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 04:02:10 BDT 2017]; root of context hierarchy
+2017-12-25 04:02:11.703  INFO 660 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{schoolName}],methods=[GET]}" onto public java.lang.String com.weborg.websee.controller.BoardController.showBoard(java.lang.String,org.springframework.ui.Model)
+2017-12-25 04:02:11.704  INFO 660 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.weborg.websee.controller.HomeController.showHome()
+2017-12-25 04:02:11.706  INFO 660 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-25 04:02:11.707  INFO 660 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-25 04:02:11.725  INFO 660 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 04:02:11.725  INFO 660 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 04:02:11.746  INFO 660 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 04:02:11.875  INFO 660 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-25 04:02:11.909  INFO 660 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-12-25 04:02:11.912  INFO 660 --- [main] com.weborg.websee.WeborgApplication      : Started WeborgApplication in 1.369 seconds (JVM running for 1.761)
+2017-12-25 04:03:20.167  INFO 660 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-25 04:03:20.167  INFO 660 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-25 04:03:20.178  INFO 660 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2017-12-25 04:08:14.185  INFO 6516 --- [main] com.weborg.websee.WeborgApplication      : Starting WeborgApplication on SHEIKH-IBRAHIM with PID 6516 (D:\HomePractice\STSprojects\weborg\bin started by USER in D:\HomePractice\STSprojects\weborg)
+2017-12-25 04:08:14.186  INFO 6516 --- [main] com.weborg.websee.WeborgApplication      : No active profile set, falling back to default profiles: default
+2017-12-25 04:08:14.215  INFO 6516 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 04:08:14 BDT 2017]; root of context hierarchy
+2017-12-25 04:08:15.014  INFO 6516 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-12-25 04:08:15.020  INFO 6516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-12-25 04:08:15.022  INFO 6516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-25 04:08:15.092  INFO 6516 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-25 04:08:15.093  INFO 6516 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 880 ms
+2017-12-25 04:08:15.211  INFO 6516 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-25 04:08:15.214  INFO 6516 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-25 04:08:15.214  INFO 6516 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-25 04:08:15.215  INFO 6516 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-25 04:08:15.215  INFO 6516 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-25 04:08:15.449  INFO 6516 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 04:08:14 BDT 2017]; root of context hierarchy
+2017-12-25 04:08:15.480  INFO 6516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{boardName}],methods=[GET]}" onto public java.lang.String com.weborg.websee.controller.BoardController.showBoard(java.lang.String,org.springframework.ui.Model)
+2017-12-25 04:08:15.481  INFO 6516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.weborg.websee.controller.HomeController.showHome()
+2017-12-25 04:08:15.483  INFO 6516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-25 04:08:15.483  INFO 6516 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-25 04:08:15.502  INFO 6516 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 04:08:15.502  INFO 6516 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 04:08:15.525  INFO 6516 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 04:08:15.687  INFO 6516 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-25 04:08:15.713 ERROR 6516 --- [main] o.a.coyote.http11.Http11NioProtocol      : Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_144]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.weborg.websee.WeborgApplication.main(WeborgApplication.java:10) [bin/:na]
+
+2017-12-25 04:08:15.713 ERROR 6516 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.13.RELEASE.jar:4.3.13.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.9.RELEASE.jar:1.5.9.RELEASE]
+	at com.weborg.websee.WeborgApplication.main(WeborgApplication.java:10) [bin/:na]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1031) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_144]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_144]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_144]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022) ~[tomcat-embed-core-8.5.23.jar:8.5.23]
+	... 14 common frames omitted
+
+2017-12-25 04:08:15.718  INFO 6516 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2017-12-25 04:08:15.727  INFO 6516 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-12-25 04:08:15.732 ERROR 6516 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2017-12-25 04:08:15.733  INFO 6516 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 04:08:14 BDT 2017]; root of context hierarchy
+2017-12-25 04:08:15.734  INFO 6516 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-12-25 04:08:25.875  INFO 660 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-12-25 04:08:25.876  INFO 660 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 04:02:10 BDT 2017]; root of context hierarchy
+2017-12-25 04:08:25.877  INFO 660 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2017-12-25 04:08:29.616  INFO 10712 --- [main] com.weborg.websee.WeborgApplication      : Starting WeborgApplication on SHEIKH-IBRAHIM with PID 10712 (D:\HomePractice\STSprojects\weborg\bin started by USER in D:\HomePractice\STSprojects\weborg)
+2017-12-25 04:08:29.618  INFO 10712 --- [main] com.weborg.websee.WeborgApplication      : No active profile set, falling back to default profiles: default
+2017-12-25 04:08:29.654  INFO 10712 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 04:08:29 BDT 2017]; root of context hierarchy
+2017-12-25 04:08:30.452  INFO 10712 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-12-25 04:08:30.459  INFO 10712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-12-25 04:08:30.461  INFO 10712 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-25 04:08:30.520  INFO 10712 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-25 04:08:30.521  INFO 10712 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 870 ms
+2017-12-25 04:08:30.629  INFO 10712 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-25 04:08:30.631  INFO 10712 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-25 04:08:30.632  INFO 10712 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-25 04:08:30.632  INFO 10712 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-25 04:08:30.632  INFO 10712 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-25 04:08:30.858  INFO 10712 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25b485ba: startup date [Mon Dec 25 04:08:29 BDT 2017]; root of context hierarchy
+2017-12-25 04:08:30.896  INFO 10712 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/{boardName}],methods=[GET]}" onto public java.lang.String com.weborg.websee.controller.BoardController.showBoard(java.lang.String,org.springframework.ui.Model)
+2017-12-25 04:08:30.897  INFO 10712 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.weborg.websee.controller.HomeController.showHome()
+2017-12-25 04:08:30.899  INFO 10712 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-25 04:08:30.899  INFO 10712 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-25 04:08:30.918  INFO 10712 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 04:08:30.918  INFO 10712 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 04:08:30.943  INFO 10712 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-25 04:08:31.111  INFO 10712 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-25 04:08:31.152  INFO 10712 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-12-25 04:08:31.155  INFO 10712 --- [main] com.weborg.websee.WeborgApplication      : Started WeborgApplication in 1.736 seconds (JVM running for 2.196)
+2017-12-25 04:08:41.777  INFO 10712 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-25 04:08:41.777  INFO 10712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-25 04:08:41.793  INFO 10712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
